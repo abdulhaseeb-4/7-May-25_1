@@ -24,12 +24,35 @@
 
 
 
-let Students = ["bilal, SHOAIB, faizan, Nufail, Hassan"]
-let FirstUppercase = Students.map ( Arr =>
-    Arr.charAt(0).toUpperCase()+ Arr.slice(1).toLowerCase()
-)
-console.log(FirstUppercase);
+// let Students = ["bilal, SHOAIB, faizan, Nufail, Hassan"]
+// let FirstUppercase = Students.map ( Arr =>
+//     Arr.charAt(0).toUpperCase()+ Arr.slice(1).toLowerCase()
+// )
+// console.log(FirstUppercase);
 
 
 
 
+
+
+
+let i = 0;
+do {
+    if (i === 5) {
+        break
+    }
+    console.log(i);
+    ++i
+} while (i < 10)
+let MyName = "Abdul Haseeb"
+console.log(MyName);
+
+let u = 0;
+do {
+    ++u
+    if (u === 8) {
+        continue
+    }
+    console.log(u);
+
+} while (u < 10)
